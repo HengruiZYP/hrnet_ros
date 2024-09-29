@@ -1,0 +1,40 @@
+[2.048s] Invoking command in '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/src/hrnet_pkg': PYTHONPATH=/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hrnet_pkg build --build-base /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build install --record /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log --install-scripts $base/lib/hrnet_pkg --single-version-externally-managed install_data
+[2.648s] running egg_info
+[2.652s] creating ../../build/hrnet_pkg/hrnet_pkg.egg-info
+[2.653s] writing ../../build/hrnet_pkg/hrnet_pkg.egg-info/PKG-INFO
+[2.653s] writing dependency_links to ../../build/hrnet_pkg/hrnet_pkg.egg-info/dependency_links.txt
+[2.653s] writing entry points to ../../build/hrnet_pkg/hrnet_pkg.egg-info/entry_points.txt
+[2.653s] writing requirements to ../../build/hrnet_pkg/hrnet_pkg.egg-info/requires.txt
+[2.654s] writing top-level names to ../../build/hrnet_pkg/hrnet_pkg.egg-info/top_level.txt
+[2.658s] writing manifest file '../../build/hrnet_pkg/hrnet_pkg.egg-info/SOURCES.txt'
+[2.785s] reading manifest file '../../build/hrnet_pkg/hrnet_pkg.egg-info/SOURCES.txt'
+[2.787s] writing manifest file '../../build/hrnet_pkg/hrnet_pkg.egg-info/SOURCES.txt'
+[2.788s] running build
+[2.788s] running build_py
+[2.789s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build
+[2.789s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib
+[2.790s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib/hrnet_pkg
+[2.790s] copying hrnet_pkg/__init__.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib/hrnet_pkg
+[2.792s] copying hrnet_pkg/infer_demo_vedio.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib/hrnet_pkg
+[2.792s] running install
+[2.798s] running install_lib
+[2.803s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg
+[2.803s] copying /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib/hrnet_pkg/__init__.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg
+[2.803s] copying /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib/hrnet_pkg/infer_demo_vedio.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg
+[2.804s] byte-compiling /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/__init__.py to __init__.cpython-38.pyc
+[2.808s] byte-compiling /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/infer_demo_vedio.py to infer_demo_vedio.cpython-38.pyc
+[2.810s] running install_data
+[2.810s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/share/ament_index
+[2.810s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/share/ament_index/resource_index
+[2.811s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/share/ament_index/resource_index/packages
+[2.811s] copying resource/hrnet_pkg -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/share/ament_index/resource_index/packages
+[2.811s] copying package.xml -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/share/hrnet_pkg
+[2.811s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/hrnet
+[2.812s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/lib
+[2.812s] creating /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/model
+[2.812s] running install_egg_info
+[2.818s] Copying ../../build/hrnet_pkg/hrnet_pkg.egg-info to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg-0.0.0-py3.8.egg-info
+[2.820s] running install_scripts
+[2.886s] Installing Hrnet_pub script to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/hrnet_pkg
+[2.887s] writing list of installed files to '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log'
+[2.997s] Invoked command in '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/src/hrnet_pkg' returned '0': PYTHONPATH=/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hrnet_pkg build --build-base /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build install --record /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log --install-scripts $base/lib/hrnet_pkg --single-version-externally-managed install_data

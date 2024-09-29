@@ -1,0 +1,4 @@
+[console_scripts]
+Hrnet_pub = hrnet_pkg.infer_demo_vedio:main
+turtle_controller = hrnet_pkg.control_topic:main
+

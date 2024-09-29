@@ -1,0 +1,26 @@
+[1.647s] Invoking command in '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/src/hrnet_pkg': PYTHONPATH=/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hrnet_pkg build --build-base /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build install --record /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log --install-scripts $base/lib/hrnet_pkg --single-version-externally-managed install_data
+[2.151s] running egg_info
+[2.154s] writing ../../build/hrnet_pkg/hrnet_pkg.egg-info/PKG-INFO
+[2.156s] writing dependency_links to ../../build/hrnet_pkg/hrnet_pkg.egg-info/dependency_links.txt
+[2.157s] writing entry points to ../../build/hrnet_pkg/hrnet_pkg.egg-info/entry_points.txt
+[2.158s] writing requirements to ../../build/hrnet_pkg/hrnet_pkg.egg-info/requires.txt
+[2.160s] writing top-level names to ../../build/hrnet_pkg/hrnet_pkg.egg-info/top_level.txt
+[2.262s] reading manifest file '../../build/hrnet_pkg/hrnet_pkg.egg-info/SOURCES.txt'
+[2.266s] writing manifest file '../../build/hrnet_pkg/hrnet_pkg.egg-info/SOURCES.txt'
+[2.267s] running build
+[2.268s] running build_py
+[2.269s] copying hrnet_pkg/infer_demo_vedio.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib/hrnet_pkg
+[2.272s] running install
+[2.276s] running install_lib
+[2.281s] copying /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib/hrnet_pkg/infer_demo_vedio.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg
+[2.283s] byte-compiling /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/infer_demo_vedio.py to infer_demo_vedio.cpython-38.pyc
+[2.288s] running install_data
+[2.289s] copying hrnet_pkg/hrnet/utils.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/hrnet
+[2.291s] running install_egg_info
+[2.296s] removing '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.296s] Copying ../../build/hrnet_pkg/hrnet_pkg.egg-info to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg-0.0.0-py3.8.egg-info
+[2.299s] running install_scripts
+[2.357s] Installing Hrnet_pub script to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/hrnet_pkg
+[2.358s] Installing turtle_controller script to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/hrnet_pkg
+[2.360s] writing list of installed files to '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log'
+[2.453s] Invoked command in '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/src/hrnet_pkg' returned '0': PYTHONPATH=/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hrnet_pkg build --build-base /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build install --record /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log --install-scripts $base/lib/hrnet_pkg --single-version-externally-managed install_data

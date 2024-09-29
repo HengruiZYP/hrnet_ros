@@ -1,0 +1,25 @@
+[1.611s] Invoking command in '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/src/hrnet_pkg': PYTHONPATH=/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hrnet_pkg build --build-base /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build install --record /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log --install-scripts $base/lib/hrnet_pkg --single-version-externally-managed install_data
+[2.104s] running egg_info
+[2.106s] writing ../../build/hrnet_pkg/hrnet_pkg.egg-info/PKG-INFO
+[2.108s] writing dependency_links to ../../build/hrnet_pkg/hrnet_pkg.egg-info/dependency_links.txt
+[2.109s] writing entry points to ../../build/hrnet_pkg/hrnet_pkg.egg-info/entry_points.txt
+[2.110s] writing requirements to ../../build/hrnet_pkg/hrnet_pkg.egg-info/requires.txt
+[2.111s] writing top-level names to ../../build/hrnet_pkg/hrnet_pkg.egg-info/top_level.txt
+[2.222s] reading manifest file '../../build/hrnet_pkg/hrnet_pkg.egg-info/SOURCES.txt'
+[2.225s] writing manifest file '../../build/hrnet_pkg/hrnet_pkg.egg-info/SOURCES.txt'
+[2.225s] running build
+[2.226s] running build_py
+[2.226s] copying hrnet_pkg/infer_demo_vedio.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib/hrnet_pkg
+[2.227s] running install
+[2.229s] running install_lib
+[2.232s] copying /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build/lib/hrnet_pkg/infer_demo_vedio.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg
+[2.233s] byte-compiling /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/infer_demo_vedio.py to infer_demo_vedio.cpython-38.pyc
+[2.239s] running install_data
+[2.240s] running install_egg_info
+[2.245s] removing '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[2.246s] Copying ../../build/hrnet_pkg/hrnet_pkg.egg-info to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg-0.0.0-py3.8.egg-info
+[2.249s] running install_scripts
+[2.297s] Installing Hrnet_pub script to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/hrnet_pkg
+[2.298s] Installing topic_helloworld_sub script to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/hrnet_pkg
+[2.299s] writing list of installed files to '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log'
+[2.388s] Invoked command in '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/src/hrnet_pkg' returned '0': PYTHONPATH=/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/hrnet_pkg build --build-base /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build install --record /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log --install-scripts $base/lib/hrnet_pkg --single-version-externally-managed install_data

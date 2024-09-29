@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.001160] (hrnet_pkg) JobQueued: {'identifier': 'hrnet_pkg', 'dependencies': OrderedDict()}
+[0.002208] (hrnet_pkg) JobStarted: {'identifier': 'hrnet_pkg'}
+[0.099449] (-) TimerEvent: {}
+[0.200457] (-) TimerEvent: {}
+[0.301118] (-) TimerEvent: {}
+[0.401678] (-) TimerEvent: {}
+[0.502287] (-) TimerEvent: {}
+[0.603007] (-) TimerEvent: {}
+[0.703672] (-) TimerEvent: {}
+[0.804371] (-) TimerEvent: {}
+[0.905272] (-) TimerEvent: {}
+[1.005884] (-) TimerEvent: {}
+[1.106521] (-) TimerEvent: {}
+[1.207126] (-) TimerEvent: {}
+[1.307646] (-) TimerEvent: {}
+[1.408188] (-) TimerEvent: {}
+[1.508769] (-) TimerEvent: {}
+[1.609459] (-) TimerEvent: {}
+[1.710002] (-) TimerEvent: {}
+[1.810667] (-) TimerEvent: {}
+[1.911324] (-) TimerEvent: {}
+[2.011945] (-) TimerEvent: {}
+[2.020558] (hrnet_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hrnet_pkg', 'build', '--build-base', '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/build', 'install', '--record', '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log', '--install-scripts', '$base/lib/hrnet_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/src/hrnet_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'edgeboard', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '716', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/edgeboard/', 'OLDPWD': '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg', 'DESKTOP_SESSION': 'xfce', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'COLCON_PREFIX_PATH': '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'edgeboard', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/home/edgeboard//.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/aipi:@/tmp/.ICE-unix/673,unix/aipi:/tmp/.ICE-unix/673', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/edgeboard/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-gHgWXlEXXKW6/agent.673', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/edgeboard', 'AMENT_PREFIX_PATH': '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet-python:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:2c9577e8-c350-4689-bf45-d90efd8563c7', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_VTNR': '7', 'PWD': '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share', 'PYTHONPATH': '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages:/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet-python/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.112096] (-) TimerEvent: {}
+[2.212697] (-) TimerEvent: {}
+[2.313453] (-) TimerEvent: {}
+[2.413979] (-) TimerEvent: {}
+[2.514513] (-) TimerEvent: {}
+[2.615017] (-) TimerEvent: {}
+[2.645456] (hrnet_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.647672] (hrnet_pkg) StdoutLine: {'line': b'writing ../../build/hrnet_pkg/hrnet_pkg.egg-info/PKG-INFO\n'}
+[2.649191] (hrnet_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/hrnet_pkg/hrnet_pkg.egg-info/dependency_links.txt\n'}
+[2.650686] (hrnet_pkg) StdoutLine: {'line': b'writing entry points to ../../build/hrnet_pkg/hrnet_pkg.egg-info/entry_points.txt\n'}
+[2.651347] (hrnet_pkg) StdoutLine: {'line': b'writing requirements to ../../build/hrnet_pkg/hrnet_pkg.egg-info/requires.txt\n'}
+[2.651721] (hrnet_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/hrnet_pkg/hrnet_pkg.egg-info/top_level.txt\n'}
+[2.715171] (-) TimerEvent: {}
+[2.760583] (hrnet_pkg) StdoutLine: {'line': b"reading manifest file '../../build/hrnet_pkg/hrnet_pkg.egg-info/SOURCES.txt'\n"}
+[2.764168] (hrnet_pkg) StdoutLine: {'line': b"writing manifest file '../../build/hrnet_pkg/hrnet_pkg.egg-info/SOURCES.txt'\n"}
+[2.766538] (hrnet_pkg) StdoutLine: {'line': b'running build\n'}
+[2.767145] (hrnet_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.767587] (hrnet_pkg) StdoutLine: {'line': b'running install\n'}
+[2.774059] (hrnet_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.775043] (hrnet_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.775601] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/hrnet/preprocess.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/hrnet\n'}
+[2.776042] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/hrnet/hrnet.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/hrnet\n'}
+[2.776402] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/hrnet/utils.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/hrnet\n'}
+[2.776751] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/hrnet/postprocess.py -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/hrnet\n'}
+[2.777123] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/lib/libhrnet_bind.so -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/lib\n'}
+[2.815321] (-) TimerEvent: {}
+[2.853346] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/model/model.pdiparams -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/model\n'}
+[2.915482] (-) TimerEvent: {}
+[3.016130] (-) TimerEvent: {}
+[3.116725] (-) TimerEvent: {}
+[3.217287] (-) TimerEvent: {}
+[3.317818] (-) TimerEvent: {}
+[3.418440] (-) TimerEvent: {}
+[3.519095] (-) TimerEvent: {}
+[3.619764] (-) TimerEvent: {}
+[3.720543] (-) TimerEvent: {}
+[3.821213] (-) TimerEvent: {}
+[3.922043] (-) TimerEvent: {}
+[4.022863] (-) TimerEvent: {}
+[4.123451] (-) TimerEvent: {}
+[4.224232] (-) TimerEvent: {}
+[4.324788] (-) TimerEvent: {}
+[4.425397] (-) TimerEvent: {}
+[4.526034] (-) TimerEvent: {}
+[4.626708] (-) TimerEvent: {}
+[4.728179] (-) TimerEvent: {}
+[4.828963] (-) TimerEvent: {}
+[4.929561] (-) TimerEvent: {}
+[5.030095] (-) TimerEvent: {}
+[5.130658] (-) TimerEvent: {}
+[5.231800] (-) TimerEvent: {}
+[5.332524] (-) TimerEvent: {}
+[5.433173] (-) TimerEvent: {}
+[5.533995] (-) TimerEvent: {}
+[5.634838] (-) TimerEvent: {}
+[5.735647] (-) TimerEvent: {}
+[5.836352] (-) TimerEvent: {}
+[5.936993] (-) TimerEvent: {}
+[6.037811] (-) TimerEvent: {}
+[6.138460] (-) TimerEvent: {}
+[6.239134] (-) TimerEvent: {}
+[6.339802] (-) TimerEvent: {}
+[6.440665] (-) TimerEvent: {}
+[6.541572] (-) TimerEvent: {}
+[6.642502] (-) TimerEvent: {}
+[6.743380] (-) TimerEvent: {}
+[6.844242] (-) TimerEvent: {}
+[6.945098] (-) TimerEvent: {}
+[7.045933] (-) TimerEvent: {}
+[7.146731] (-) TimerEvent: {}
+[7.247400] (-) TimerEvent: {}
+[7.348232] (-) TimerEvent: {}
+[7.449030] (-) TimerEvent: {}
+[7.549708] (-) TimerEvent: {}
+[7.650531] (-) TimerEvent: {}
+[7.751660] (-) TimerEvent: {}
+[7.852449] (-) TimerEvent: {}
+[7.953091] (-) TimerEvent: {}
+[8.053773] (-) TimerEvent: {}
+[8.154535] (-) TimerEvent: {}
+[8.255078] (-) TimerEvent: {}
+[8.355631] (-) TimerEvent: {}
+[8.456195] (-) TimerEvent: {}
+[8.556862] (-) TimerEvent: {}
+[8.657649] (-) TimerEvent: {}
+[8.758328] (-) TimerEvent: {}
+[8.859160] (-) TimerEvent: {}
+[8.959985] (-) TimerEvent: {}
+[9.060664] (-) TimerEvent: {}
+[9.161310] (-) TimerEvent: {}
+[9.261926] (-) TimerEvent: {}
+[9.305325] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/model/infer_cfg.yml -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/model\n'}
+[9.307299] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/model/model.json -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/model\n'}
+[9.309016] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/model/model.pdmodel -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/model\n'}
+[9.316593] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/model/model.nb -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/model\n'}
+[9.362104] (-) TimerEvent: {}
+[9.462741] (-) TimerEvent: {}
+[9.563294] (-) TimerEvent: {}
+[9.645797] (hrnet_pkg) StdoutLine: {'line': b'copying hrnet_pkg/model/config.json -> /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg/model\n'}
+[9.646499] (hrnet_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.652673] (hrnet_pkg) StdoutLine: {'line': b"removing '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.653636] (hrnet_pkg) StdoutLine: {'line': b'Copying ../../build/hrnet_pkg/hrnet_pkg.egg-info to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/python3.8/site-packages/hrnet_pkg-0.0.0-py3.8.egg-info\n'}
+[9.658321] (hrnet_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.663434] (-) TimerEvent: {}
+[9.726008] (hrnet_pkg) StdoutLine: {'line': b'Installing Hrnet_pub script to /media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/install/hrnet_pkg/lib/hrnet_pkg\n'}
+[9.727755] (hrnet_pkg) StdoutLine: {'line': b"writing list of installed files to '/media/edgeboard/15535b00-bc44-4cd4-b797-882073cf89e2/hrnet_python_ros/build/hrnet_pkg/install.log'\n"}
+[9.763610] (-) TimerEvent: {}
+[9.835758] (hrnet_pkg) CommandEnded: {'returncode': 0}
+[9.863796] (-) TimerEvent: {}
+[9.884519] (hrnet_pkg) JobEnded: {'identifier': 'hrnet_pkg', 'rc': 0}
+[9.886334] (-) EventReactorShutdown: {}
