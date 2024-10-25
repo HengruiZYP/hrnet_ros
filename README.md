@@ -1,4 +1,4 @@
-# hornet_ros
+# Hrnet_ros
 
 # 效果预览
 <img src="vedio/EdgeBoard_DK-1A.png" width="70%">
